@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 8px;
+    display: block;
+    background-color:thistle;
+    color: black;
+    text-align: center;
+    font-size:11px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav .navbar{
+    height: 100%;
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+nav .navbar .nav-links{
+    line-height: 70px;
+}
+nav .navbar .nav-links .links{
+    display: flex;
+}
+nav .navbar .nav-links .links li{
+    list-style: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 14px;
+}
+nav .navbar .nav-links .links li a{
+    color: black;
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    white-space: nowrap;
+    font-weight: bolds;
+}
+.navbar .nav-links .links li .arrow{
+    background: white;
+    height: 100%;
+    width: 22px;
+    text-align: center;
+    color: black;
+    line-height: 70px;
+    transition: all 0.3s ease;
+}
+
+.navbar .nav-links .links .sub-menu{
+    position: absolute;
+    top: 70px;
+    left:0;
+    background-color:white;
+    line-height: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 15%);
+    display: none;
+}
+.navbar .nav-links .links .sub-menu li{
+    padding: 0 22px;
+}
+.navbar .nav-links .links .sub-menu li a{
+    color: #545454;
+    font-size: 13px;
+    font: 500;
+
+}
+.navbar .nav-links .links li:hover .about-sub-menu,
+.navbar .nav-links .links li:hover .addmission-sub-menu,
+.navbar .nav-links .links li:hover .reserch-sub-menu,
+.navbar .nav-links .links li:hover .student-sub-menu{
+    display: block;
+}
