@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: rgb(241, 144, 15);
+  color: rgb(205, 240, 124);
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: rgb(3, 163, 236);
+    color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: rgb(241, 12, 173);
+    color: rgb(231, 129, 129);
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>Resize the browser window to see the effect!</h1>
+
+</body>
+</html>
+
